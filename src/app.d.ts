@@ -3,7 +3,10 @@
 declare global {
 	namespace App {
 		// interface Error {}
-		// interface Locals {}
+		// eslint-disable-next-line ts/consistent-type-definitions
+		interface Locals {
+			token: string | undefined
+		}
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}

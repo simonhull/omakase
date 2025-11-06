@@ -1,0 +1,35 @@
+{
+	"mcpServers": {
+		"context7": {
+			"command": "npx",
+			"args": ["-y", "@upstash/context7-mcp"],
+			"env": {
+				"CONTEXT7_API_KEY": "ctx7sk-6dfd6b31-232a-4f20-adba-020ec8e51ae8"
+			}
+		},
+		"svelte": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"@sveltejs/mcp"
+			],
+			"env": {
+
+			}
+		},
+		"Better Auth": {
+			"url": "https://mcp.chonkie.ai/better-auth/better-auth-builder/mcp"
+		},
+		"Convex": {
+			"type": "stdio",
+			"command": "npx",
+			"args": ["convex", "mcp", "start"]
+
+		},
+		"chrome-devtools": {
+			"command": "npx",
+			"args": ["chrome-devtools-mcp@latest"]
+		}
+	}
+}
