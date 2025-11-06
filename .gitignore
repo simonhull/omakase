@@ -24,3 +24,10 @@ vite.config.ts.timestamp-*
 
 # Jetbrains
 .idea
+
+# AI
+.claude
+.gemini
+
+#Convex
+_generated/

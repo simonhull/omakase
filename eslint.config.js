@@ -49,24 +49,6 @@ export default antfu(
 			],
 		},
 	},
-	// Convex folder - enforce PascalCase (except special Convex files)
-	{
-		files: ['src/convex/**/*.ts'],
-		rules: {
-			'unicorn/filename-case': [
-				'error',
-				{
-					case: 'pascalCase',
-					ignore: [
-						'schema\\.ts$',
-						'http\\.ts$',
-						'.*\\.config\\.ts$',
-						'_generated/.*',
-					],
-				},
-			],
-		},
-	},
 	// Svelte-specific tweaks
 	{
 		files: ['**/*.svelte'],

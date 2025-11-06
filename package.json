@@ -14,6 +14,8 @@
 		"lint:fix": "eslint --fix ."
 	},
 	"dependencies": {
+		"@convex-dev/better-auth": "^0.9.7",
+		"better-auth": "^1.3.34",
 		"convex": "^1.28.2",
 		"convex-svelte": "^0.0.12"
 	},
